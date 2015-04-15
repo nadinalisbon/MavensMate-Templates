@@ -94,7 +94,7 @@
     {
     	"name"      : "ITriggerFactory",
       "file_name"   : "ITriggerFactory.cls",
-      "description"   : "ITriggerFactory Class",
+      "description"   : "ITriggerFactory Class - ITrigger Interface REQUIRED",
       "author"    : "Unknown",
       "params"    : [ 
             {   
