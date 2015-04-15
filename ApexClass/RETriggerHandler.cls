@@ -1,4 +1,7 @@
-public without sharing class {{ api_name }} implements [INTERFACE_CLASS] {
+// Be sure to add the "implements InterfaceClass" that will implement
+// the interface class.
+// Eg. public without sharing class {{ api_name }} implements InterfaceClass {
+public without sharing class {{ api_name }} {
   ////////////////////////
   // Instance Variables //
   ////////////////////////
