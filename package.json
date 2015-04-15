@@ -82,13 +82,13 @@
     	"name"      : "ITrigger Interface",
       "file_name"   : "ITrigger.cls",
       "description"   : "ITrigger Interface Class",
-      "author"    : "Unknown",
+      "author"    : "Unknown"
     },
     {
     	"name"      : "ITriggerFactory",
       "file_name"   : "ITriggerFactory.cls",
       "description"   : "ITriggerFactory Class",
-      "author"    : "Unknown",
+      "author"    : "Unknown"
     },
     {
       "name"      : "No Constructor",
