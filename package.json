@@ -169,13 +169,13 @@
 		{
 			"name"			: "Trigger Handler",
 			"file_name"		: "RETriggerHandler.cls",
-			"description" 	: "An Interface that handles Trigger actions",
+			"description" 	: "Class which implements a TriggerHandler Interface",
 			"author" 		: "MavensMate",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",
 		            "description"   : "Apex Class API Name",
-		            "default" 		: "MyApexClass"
+		            "default" 		: "ObjectTriggerHandler"
 		        }
 		   ]
 		},
