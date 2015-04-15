@@ -168,7 +168,7 @@
 		},		
 		{
 			"name"			: "Trigger Handler",
-			"file_name"		: "TriggerHandler.cls",
+			"file_name"		: "RETriggerHandler.cls",
 			"description" 	: "An Interface that handles Trigger actions",
 			"author" 		: "MavensMate",
 			"params" 		: [ 
