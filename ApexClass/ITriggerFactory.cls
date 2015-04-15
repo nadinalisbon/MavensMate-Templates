@@ -7,7 +7,7 @@ global with sharing class TriggerFactory {
   /**
    * Public static method to create and execute a trigger handler
    *
-   * Arguments:   Type t - Type of handler to instatiate
+   * Arguments:   Type t - Type of handler to instantiate
    *
    * Throws a TriggerException if no handler has been found.
    */
