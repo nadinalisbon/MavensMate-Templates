@@ -82,13 +82,27 @@
     	"name"      : "ITrigger Interface",
       "file_name"   : "ITrigger.cls",
       "description"   : "ITrigger Interface Class",
-      "author"    : "Unknown"
+      "author"    : "Unknown",
+      "params"    : [ 
+            {   
+                "name"          : "api_name",
+                "description"   : "Apex Class API Name",
+                "default"     : "ITrigger"
+            }
+       ]
     },
     {
     	"name"      : "ITriggerFactory",
       "file_name"   : "ITriggerFactory.cls",
       "description"   : "ITriggerFactory Class",
-      "author"    : "Unknown"
+      "author"    : "Unknown",
+      "params"    : [ 
+            {   
+                "name"          : "api_name",
+                "description"   : "Apex Class API Name",
+                "default"     : "ITriggerFactory"
+            }
+       ]
     },
     {
       "name"      : "No Constructor",
