@@ -1,4 +1,4 @@
-MavensMate-Templates
+Specialized MavensMate-Templates
 ====================
 
 A repository of specialized metadata templates for use in MavensMate.
