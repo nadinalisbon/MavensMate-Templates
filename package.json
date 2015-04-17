@@ -264,24 +264,6 @@
        ]
     },
     {
-      "name"      : "Apex Trigger - Bulkified",
-      "file_name"   : "ApexTriggerBulk.trigger",
-      "description"   : "Bulk Apex Trigger with all Trigger events",
-      "author"    : "David Schach @dschach",
-      "params"    : [ 
-            {   
-                "name"          : "api_name",
-                "description"   : "Apex Trigger API Name",
-                "default"     : "MyCoolTrigger"
-            },
-            {   
-                "name"          : "object_name",
-                "description"   : "Object API Name",
-                "default"     : "Account"
-            }
-       ]
-    },
-    {
       "name"      : "RETrigger",
       "file_name"   : "RETrigger.trigger",
       "description"   : "Apex ITrigger Implementation, requires ITrigger and ITriggerFactory.",
