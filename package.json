@@ -282,15 +282,15 @@
        ]
     },
     {
-      "name"      : "DomainTrigger",
-      "file_name"   : "DomainTrigger.trigger",
-      "description"   : "Apex Enterprise Patterns Domain Trigger",
-      "author"    : "Andy Fawcett @andyinthecloud",
+      "name"      : "RETrigger",
+      "file_name"   : "RETrigger.trigger",
+      "description"   : "Apex ITrigger Implementation, requires ITrigger and ITriggerFactory.",
+      "author"    : "Justin Lisbon",
       "params"    : [
         {
           "name"      : "api_name",
-          "description" : "Domain trigger name, must be same as Domain class name",
-          "default"   : "Invoices"
+          "description" : "Object trigger name",
+          "default"   : "ObjectTrigger"
         },
         {
           "name"      : "object_name",
