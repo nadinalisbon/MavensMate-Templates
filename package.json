@@ -105,15 +105,15 @@
        ]
     },
     {
-      "name"      : "No Constructor",
-      "file_name"   : "ApexClassNoConstructor.cls",
-      "description"   : "The default template for an Apex Class",
-      "author"    : "MavensMate",
+      "name"      : "Trigger Handler",
+      "file_name"   : "RETriggerHandler.cls",
+      "description"   : "Trigger Handler Template",
+      "author"    : "Unknown",
       "params"    : [ 
             {   
                 "name"          : "api_name",
-                "description"   : "Apex Class API Name",
-                "default"     : "MyApexClass"
+                "description"   : "Trigger Handler Class Name",
+                "default"     : "MyTriggerHandler"
             }
        ]
     },    
