@@ -1,9 +1,9 @@
 /**
-* Class TriggerFactory
+* Class ITriggerFactory
 *
 * Used to instantiate and execute Trigger Handlers associated with sObjects.
 */
-global with sharing class TriggerFactory { 
+global with sharing class ITriggerFactory { 
   /**
    * Public static method to create and execute a trigger handler
    *
