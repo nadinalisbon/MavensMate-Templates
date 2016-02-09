@@ -90,12 +90,31 @@ public without sharing class {{ api_name }} {
   
   }
   
+   /**
+   *   All after undelete logic should be done here. This method is called iteratively and as such
+   *   should contain no actions which could potentilly hit limits or is considered bad practice
+   *   in the Salesforce environment. 
+   *
+   *   @param  {SObject}   so Single SObject representation of the object being acted upon.
+   */
+  public void afterUndelete(SObject so) {
+  
+  }
+  
   /**
-   *   All final logic should be done at this point such as modification to objects outside of
+   *   All before final logic should be done at this point such as modification to other objects outside of
+   *   the current object such as creation or updates of other records.
+   */
+  public void andFinallyBefore() {
+  
+  }
+  
+  /**
+   *   All after final logic should be done at this point such as modification to objects outside of
    *   the current object. At this point all updates to the current trigger transaction should be
    *   complete and all validation done.
    */
-  public void andFinally() {
+  public void andFinallyAfter() {
   
   }
   
